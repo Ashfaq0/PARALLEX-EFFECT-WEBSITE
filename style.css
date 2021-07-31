@@ -1,0 +1,80 @@
+body,html{
+  margin: 0;
+  height:100%;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color:black;
+  line-height: 1.5em;
+  
+}
+.img1,.img2,.img3{
+  position: relative;
+  opacity: 0.90;
+  background-attachment: fixed;
+}
+.img1{
+  background-image: url(hmm.jpg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img2{
+  background-image: url(home.jpg);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img3{
+  background-image: url(mali.jpg);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.section{
+  text-align: center;
+  padding: 50px 80px;
+  background:linear-gradient(grey,black);
+  color:darkgray
+}
+.black{
+  color: black;
+}
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  font-size: bold;
+  color: white;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.ptext .border{
+  background:linear-gradient(black,grey);
+  padding: 10px;
+  border-radius: 14px;
+  border-style: dashed;
+  background-color:transparent ;
+}
+
+.head{
+  color:black;
+  margin: auto;
+  text-align:center;
+}
+.head .beta{
+  background-color:grey;
+  padding: 10px;
+  border-left: 50px solid black;
+}
+@media(max-width:600px){
+  .img1,.img2,.img3{
+    background-attachment: scroll;
+  }
+}
